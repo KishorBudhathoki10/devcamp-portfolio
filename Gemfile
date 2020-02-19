@@ -57,3 +57,5 @@ gem 'rack', '~> 2.0', '>= 2.0.8'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.4.1'
 
+gem 'kishors_view_tool', git: 'https://github.com/KishorBudhathoki10/kishors_view_tool'
+
