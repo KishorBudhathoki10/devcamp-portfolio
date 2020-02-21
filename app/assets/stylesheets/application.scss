@@ -167,12 +167,8 @@ body {
 
 .card-block {
   color: black;
-  margin-bottom: 10px;
   text-align: left;
-}
-
-.form-control {
-  margin-left: 15px;
+  padding: 15px;
 }
 
 .row {
@@ -186,3 +182,20 @@ body {
 .left-margin {
   margin-left: 10px;
 }
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: auto;
+  float: none;
+}
+
+
+
+
+
+
+
