@@ -64,4 +64,16 @@ module ApplicationHelper
   def active?(path)
     "active" if current_page?(path)
   end
+
+  def alerts
+    alert = (flash[:alert] || flash[:error] || flash[:notice])
+
+    if alert
+      alert_generator(alert, 2000)
+    end
+  end
+
+  def alert_generator(msg, time)
+    js add_gritter(msg, title: "Kishor Budhathoki Portfolio", time: time, sticky: false)
+  end
 end
