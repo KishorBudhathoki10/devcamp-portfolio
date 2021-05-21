@@ -29,7 +29,7 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4'
-gem 'rack', '~> 2.0', '>= 2.0.8'
+gem 'rack', '~> 2.2'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.4.1'
 gem 'kishors_view_tool', '~> 0.1.0'
